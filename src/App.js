@@ -2,9 +2,12 @@ import "./App.css";
 import Header from "./components/Header";
 
 function App() {
+  const contacts = {
+    contact: 545454545544,
+  };
   return (
     <>
-      <Header></Header>
+      <Header contact={contacts.contact}></Header>
       <div className="body">
         <h1 className="head">
           Linked<span>in</span>

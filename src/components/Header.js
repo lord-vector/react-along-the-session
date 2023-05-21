@@ -1,7 +1,7 @@
 import React from "react";
 import "./Header.css";
 
-function Header() {
+function Header(props) {
   return (
     <div>
       {/* <h1 className="header">Login Form</h1>
@@ -60,7 +60,7 @@ function Header() {
                   </li>
                   <li>
                     <a class="dropdown-item" href="#">
-                      Something else here
+                      contact us - {props.contact}
                     </a>
                   </li>
                 </ul>
